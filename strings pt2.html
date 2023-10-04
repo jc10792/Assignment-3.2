@@ -1,0 +1,42 @@
+<!-- Jacob Camins-Esakov 
+    CSC102 
+    Module 3 
+    Assignment 3.2 -->
+    <!DOCTYPE html>  <!-- Setting the file type -->
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8"> <!-- Used the default charset mentioned in class -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Kept defaults -->
+        <title>CSC Assignment 3.2</title> <!-- Set the tab name to match the application -->
+        <script src = "strings pt2.js"> </script>
+        <link rel="stylesheet" href="main.css"> <!-- Setting the style for my application -->
+    </head> <!-- Added the body of the application along with headers and paragraphs as per instructions -->
+    <body>
+        <nav>
+        <p>
+            click <a href="https://uat.edu"> UAT Home Page </a> 
+        </p>
+        </nav>
+        <h1> 
+            Submit your information to play a game!  
+        </h1>
+        <p id = "loginStatus"> Status of Login </p>
+        <br>
+        <form id="credSubmit" onsubmit="return false">
+            <br>
+            First Name: <input type="text" id="firstName">
+            <br>
+            Last Name:  <input type="text"  id = "lastName">
+            <br>
+            Zipcode:    <input type="number" id = "zipcode">
+            <input type="submit" onclick="CheckInput();">
+            <br>
+            <br>
+        </form>
+        <br>
+        <img src="C:\Users\Jacob's PC\javascript3\welcome-all-lets.jpg"> <!-- image from https://makeameme.org/meme/welcome-all-lets-->
+    </body>
+    <footer>
+        Copyright 2023 by Jacob Camins-Esakov
+    </footer>
+    </html>
